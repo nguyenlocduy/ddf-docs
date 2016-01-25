@@ -95,7 +95,7 @@ Distributed DataFrame</h1>
         <a href="quickstart.html" class="call-to-action button get-started radius expand">Get Started</a>
       </div>
       <div class="secondary-cta">
-        <a href="https://s3.amazonaws.com/ddf-project/binary/ddf_binary.zip" class="">Download Binary</a>
+        <a href="#" class="" data-reveal-id="packageModal">Download Binary</a>
         &emsp;&emsp; | &emsp;&emsp;
         <a href="https://github.com/ddf-project/DDF/archive/master.zip" class="">Download Source Code</a>
       </div>
@@ -279,6 +279,20 @@ ddf.getNumColumns()</code>
 
 		<div class="push"></div>
 	</div>
+
+
+  <div id="packageModal" class="reveal-modal tiny" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+    <h2 id="modalTitle">Download a package</h2>
+    <ul>
+      <li><a href="https://s3.amazonaws.com/ddf-project/binary/ddf_binary.zip">All in one package</a></li>
+      <li><a href="#">ddf-core &amp; ddf-spark</a></li>
+      <li><a href="#">ddf-jdbc</a></li>
+      <li><a href="#">ddf-flink</a></li>
+    </ul>
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+  </div>
+
+
 	<footer>
       <div class="content">
         Project supported by <a href="http://www.adatao.com" target="_blank">Adatao</a>
@@ -303,6 +317,12 @@ ddf.getNumColumns()</code>
 
   ga('create', 'UA-55967251-1', 'auto');
   ga('send', 'pageview');
+
+</script>
+
+<script>
+  
+
 
 </script>
 <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
